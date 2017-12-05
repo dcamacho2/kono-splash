@@ -8,10 +8,10 @@
   	</div>
   	<div class="flex-auto flex flex-column justify-center z-3 ph3">
   		<div class="mw7 center f2-ns f4">
-  			<h1 class="fw9 tc lh-title-ns mv0 pb4 ">A human to human design agency.</h1>
-  			<p class="tc f3-ns f4 ph4 lh-copy-ns mv0" style="font-family: Calibre !important">At Kono, we design for the little guys: thumbs, fingers, and eyeballs. We create thoughtful digital experiences and build unmistakable brands.</p>
+  			<h1 class="fw9 tc mv0 pb4 lh-title">A human to human design agency.</h1>
+  			<p class="tc f3-ns f4 ph4 mv0 lh-copy" style="font-family: Calibre !important">At Kono, we design for the little guys: thumbs, fingers, and eyeballs. We create thoughtful digital experiences and build unmistakable brands.</p>
   			<div class="w-30-ns w-70 center mt5-ns mt4">
-  				<a href="" class="no-underline fw5 f4-ns f5 br-pill tc db btn" style="font-family: Calibre !important;">LET'S TALK</a>
+  				<a href="mailto:earthtokono@gmail.com" target="_top" class="no-underline fw5 f4-ns f5 br-pill tc db btn" style="font-family: Calibre !important;">LET'S TALK</a>
   			</div>
   		</div>
   	</div>
@@ -47,11 +47,14 @@ export default {
     background-size: 15px !important;
     z-index: 0;
   }
+  .f2-ns {
+    font-size: 2.15rem !important;
+  }
   .lh-title {
-    line-height: 80px;
+    line-height: 70px;
   }
   .lh-copy {
-    line-height: 34px;
+    line-height: 30px;
   }
   .btn {
     background-color: white;
